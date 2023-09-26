@@ -1,0 +1,515 @@
+body{
+    background-image:linear-gradient(to right, rgba(108, 231, 250, 0.781), white, rgb(127, 184, 136));
+    border: solid black;
+    outline: double 2px black;
+    
+}
+
+
+
+
+
+
+.bu1
+{
+background-image: none;
+background-color: black;
+color: rgb(54, 221, 233);
+width: 180px;
+border:solid rgb(54, 221, 233)yellow;
+border-radius: 20% ;
+font: bold;
+font-size: x-large;
+box-shadow: 5px 2px 5px 2px white;
+
+}
+
+.bu2
+{
+background-image: none;
+background-color: black;
+color: rgb(54, 221, 233);
+border: none;
+border:solid rgb(54, 221, 233);
+border-radius: 20% ;
+width: 200px;
+font: bold;
+font-size: x-large;
+box-shadow: 5px 2px 5px 2px white;
+
+}
+
+.bu3
+{
+background-image: none;
+background-color: black;
+color: rgb(54, 221, 233);
+border: none;
+border:solid rgb(54, 221, 233);
+border-radius: 20% ;
+width: 180px;
+font: bold;
+font-size: x-large;
+box-shadow: 5px 2px 5px 2px white;
+
+}
+
+.bu4
+{
+background-image: none;
+background-color: black;
+color: rgb(41, 240, 217);
+border: none;
+border:solid rgb(58, 216, 255);
+border-radius: 20% ;
+width: 180px;
+font: bold;
+font-size: x-large;
+box-shadow: 5px 2px 5px 2px white;
+
+}
+.bu5
+{
+background-image: none;
+background-color: black;
+color: rgb(41, 240, 217);
+border: none;
+border:solid rgb(58, 216, 255);
+border-radius: 20% ;
+width: 180px;
+font: bold;
+font-size: x-large;
+box-shadow: 5px 2px 5px 2px white;
+
+}
+.bu6
+{
+background-image: none;
+background-color: black;
+color: rgb(41, 240, 217);
+border: none;
+border:solid rgb(58, 216, 255);
+border-radius: 20% ;
+width: 180px;
+font: bold;
+font-size: x-large;
+box-shadow: 5px 2px 5px 2px white;
+
+}
+.bu7
+{
+background-image: none;
+background-color: black;
+color: rgb(41, 240, 217);
+border: none;
+border:solid rgb(58, 216, 255);
+border-radius: 20% ;
+width: 180px;
+font: bold;
+font-size: x-large;
+box-shadow: 5px 2px 5px 2px white;
+
+}
+/* ================================================================================ */
+.bu7:hover{
+    background-color: white;
+}
+.bu7:focus{
+    background-color: azure;
+    background-color: azure;}
+
+/* ================================================================================ */
+.bu6:hover{
+    background-color: white;
+}
+.bu6:focus{
+    background-color: azure;
+    background-color: azure;}
+
+/* ================================================================================ */
+.bu5:hover{
+    background-color: white;
+}
+.bu5:focus{
+    background-color: azure;
+    background-color: azure;}
+
+/* ================================================================================ */
+.bu4:hover{
+    background-color: white;
+}
+.bu4:focus{
+    background-color: azure;
+    background-color: azure;}
+
+/* ================================================================================ */
+
+.bu3:hover{
+        background-color: white;
+    }
+.bu3:focus{
+        background-color: azure;
+        background-color: azure;}
+
+    /* ================================================================================ */
+
+.bu2:hover{
+        background-color: white;
+        }
+        .bu2:focus{
+        background-color: azure;
+        background-color: azure;}
+
+/* ================================================================================ */
+
+.bu1:hover{
+            background-color: white;
+            }
+.bu1:focus{
+            background-color: azure;
+            background-color: azure;}
+      /* ================================================================================ */
+.div2{
+        height: 50px; 
+        width: 1500px;   
+        size: 50cm; 
+        transform: translate(200px,0);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color: gold;
+        font-style: oblique;
+        margin: 10PX;
+        position: sticky;
+        top: 5px;
+    
+    
+}
+.hr1{
+    color: black;
+    transform: translate(10px,-0PX);
+    width: 1520px;
+    box-shadow: 5px 2px 5px 5px rgb(5, 7, 7);
+
+}
+
+
+.el{
+    color: black;
+    transition: 0.5s;
+}
+.el style{
+transform: scale(1.5);
+}
+
+
+.h21 {
+     font: bold;
+     /* margin: 10px ; */
+     text-decoration: underline;  
+     font-size:xx-large;
+     display: flex;
+     justify-content: center;
+        
+}
+.devp{
+
+text-size-adjust:unset;   
+ margin: 150px;
+ justify-content:space-between;
+ transform: translate(40px,-40px);
+
+    padding: 80px;
+    border:solid;
+    border-radius: 8%;
+    box-sizing:border-box;
+    width: 1500px;
+    box-shadow: 5px 5px 3px 5px rgb(5, 7, 7);
+
+}
+.devp2{
+    box-shadow: 2px 2px 3px 1px white;
+}
+.hr2{
+    color: black;
+    transform: translate(0,-530px);
+    width: 1520px;
+    border: dashed white;
+    box-shadow: 5px 2px 5px 5px rgb(5, 7, 7);
+
+}
+
+/* .image{
+     overflow: hidden; 
+     width: 10px;
+    height: 10px; 
+    transition: 0.5s;
+
+}
+
+.image img2{
+     transform: scale(0.5);
+     transform: rotate(800grad); 
+     opacity: 0.5; 
+} */
+
+
+.img2{
+    cursor: pointer;
+    /* transform: rotate(0deg); */
+    transition: transform 0.5s ;
+    /* transform-origin: center center; */
+    margin-left: 70%;
+    margin-top: -200%;
+}
+.img2:hover{
+/* transform: skew(-20deg); */
+transform: translate3d(-50px,-50px,50px);
+
+}
+
+.img1{
+    cursor: pointer;
+    /* transform: rotate(0deg); */
+    transition: transform 1s ease-in-out;
+    margin-left: 4%;
+
+    /* transform-origin: 0,0; */
+
+    /* transform: translate(10px,0); */
+
+    /* transform-origin: center center; */
+
+}
+
+.img1:hover{
+    /* transform-origin:right top;
+    transform: rotate(360deg); */
+    transform: translate3d(50px,50px,50px);
+
+}
+.img1{
+    width: 450px;
+    height: 450px;
+border-radius:40%;
+box-shadow:  2px 5px 5px 5px rgb(5, 7, 7);
+} 
+.img2{
+    width: 450px;
+    height: 450px;
+border-radius:40%;
+box-shadow:  2px 5px 5px 5px rgb(5, 7, 7);
+} 
+.h13p{
+    box-shadow: 2px 5px 2px 2px black ;
+    border-radius: 5% 5%;
+    border: dashed black;
+    font: bold;
+    font-size: xx-large;
+    font-size: 500%;
+
+}
+.h13{
+    color: black;
+    transform: translate(600px,-450px);
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    display: flex;
+    border-radius:40% 0%;
+    box-shadow:  2px 5px 5px 5px rgb(5, 7, 7);
+    height: 300px;
+    width: 600px;
+    border: dashed black;
+
+    animation-name:change_color ;
+    animation-duration: 15s;
+}
+
+@keyframes change_color{
+    0%{
+        background-color: aqua;
+    }
+20%{
+        background-color: chartreuse;
+    }
+   20% {
+        background-color: blue;
+    }
+   20% {
+        background-color:red;
+    }
+    20%{
+        background-color: cornflowerblue;
+    }
+    20% {
+        background-color: blue;
+    }
+   20% {
+        background-color:red;
+    }
+    10%{
+        background-color: cornflowerblue;
+    }
+    10% {
+        background-color: blue;
+    }
+   10% {
+        background-color:red;
+    }
+    10%{
+        background-color: cornflowerblue;
+    }
+
+}
+
+.h11{
+    text-align: center;
+    text-decoration: underline solid black;
+    color: aqua;
+    background-color: black;
+    display: inline-block;
+    border-radius: 20%;
+    transform: translate(800px,0);
+    width: 300px;
+    height: 50px;
+    border: none black ;
+    box-shadow: 3px 2px 5px 5px rgb(74, 255, 255);
+    transition: 0.5s;
+    animation-name:change_color2 ;
+    animation-duration: 5s;
+
+}
+@keyframes change_color2{
+    0%{
+        background-color: aqua;
+    }
+20%{
+        background-color: chartreuse;
+    }
+   20% {
+        background-color: blue;
+    }
+   20% {
+        background-color:dodgerblue;
+    }
+    20%{
+        background-color: cornflowerblue;
+    }
+    20% {
+        background-color: blue;
+    }
+   20% {
+        background-color:darkgreen;
+    }
+    10%{
+        background-color: cornflowerblue;
+    }
+    10% {
+        background-color: blue;
+    }
+   10% {
+        background-color:antiquewhite;
+    }
+    10%{
+        background-color: cornflowerblue;
+    }
+    20% {
+        background-color:chocolate;
+    }
+    10%{
+        background-color:wheat;
+    }
+    10% {
+        background-color:greenyellow;
+    }
+   20% {
+        background-color:yellow;
+    }
+    10%{
+        background-color: cornflowerblue;
+    }
+}
+
+
+
+.child{
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    }
+    .child div{
+        background-color: black;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin: 0 10px;
+        box-shadow: 2px 2px 2px 2px white;
+        animation-name: up-and-down ;
+        animation-duration: 0.4s;
+        animation-iteration-count:infinite;
+        animation-timing-function: ease;
+        animation-direction: alternate;
+    }
+    .par{
+        transform: translate(0,-1000px);
+    }
+    
+    .child .two{
+        animation-delay: 0.3s;
+    }
+    .child .three{
+        animation-delay: 0.4s;
+    
+    }
+    .child .four{
+        animation-delay: 0.6s;
+    
+    }
+    .child .five{
+        animation-delay: 0.8s;
+    
+    }.child .sex{
+        animation-delay: 1s;
+    
+    }.child .seven{
+        animation-delay: 1.2s;
+    
+    }.child .eaigh{ 
+        animation-delay: 1.4s;
+    
+    }.child .nine{
+        animation-delay: 1.6s;
+    
+    }.child .ten{
+        animation-delay: 1.8s;
+    
+    }
+    @keyframes up-and-down {
+         100% {
+            opacity: 0.2s;
+            transform: translateY(-20px);
+           }
+    }
+/* <!-- ========================================================================================== --> */
+.icon img{
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 45px auto;
+    transform: translate(-800px,-1800px);
+}
+
+/* <!-- ========================================================================================== --> */
+.hr3{
+    transform: translate(0,-1250px);
+    box-shadow: 2px 2px 2px 2px black;
+
+
+}
+/* <!-- ========================================================================================== --> */
+
+
